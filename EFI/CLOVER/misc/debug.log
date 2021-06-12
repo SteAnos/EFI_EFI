@@ -1,0 +1,236 @@
+0:100  0:100  MemLog inited, TSC freq: 3600487520
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 4.1.2019,  20:25:10 (GMT)
+0:100  0:000  Starting Clover revision: 4769 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/src/edk2/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 9 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,5CCB07E7-A9E4-40D8-AC9F-FF79ADE71077,0x28,0x64000) @3582AE98
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:102  0:002  === [ Get Smbios ] ========================================
+0:102  0:000  Type 16 Index = 0
+0:102  0:000  Total Memory Slots Count = 4
+0:102  0:000  Type 17 Index = 0
+0:102  0:000  Ignoring insane frequency value 0MHz
+0:102  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:102  0:000  SmbiosTable.Type17->Size = 0MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:102  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:102  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:102  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:102  0:000  Type 17 Index = 1
+0:102  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:102  0:000  SmbiosTable.Type17->Size = 16384MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:102  0:000  SmbiosTable.Type17->Vendor = 029E
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = CMR32GX4M2C3200C16  
+0:102  0:000  Type 17 Index = 2
+0:102  0:000  Ignoring insane frequency value 0MHz
+0:102  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:102  0:000  SmbiosTable.Type17->Size = 0MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:102  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:102  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:102  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:102  0:000  Type 17 Index = 3
+0:102  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:102  0:000  SmbiosTable.Type17->Size = 16384MB
+0:102  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:102  0:000  SmbiosTable.Type17->Vendor = 029E
+0:102  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:102  0:000  SmbiosTable.Type17->PartNumber = CMR32GX4M2C3200C16  
+0:102  0:000  Boot status=0
+0:102  0:000  Running on: 'Z390 AORUS PRO' with board 'Z390 AORUS PRO-CF'
+0:102  0:000  === [ GetCPUProperties ] ==================================
+0:102  0:000  CPU Vendor = 756E6547 Model=906EC
+0:102  0:000   The CPU supported SSE4.1
+0:102  0:000  BrandString = Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+0:102  0:000   The CPU supported turbo
+0:102  0:000  MSR 0x35               80010
+0:102  0:000   TSC/CCC Information Leaf:
+0:102  0:000    numerator     : 300
+0:102  0:000    denominator   : 2
+0:102  0:000   Calibrated ARTFrequency: 24003250
+0:102  0:000  MSR 0xE2 before patch 1E008000
+0:102  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:102  0:000  MSR 0xCE              08080838_F1012400
+0:102  0:000  corrected FLEX_RATIO = E0000
+0:102  0:000  FSBFrequency = 131 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:102  0:000  MaxDiv/MinDiv: 36.0/8
+0:102  0:000  Turbo: 48/49/50/50
+0:102  0:000  Features: 0xBFEBFBFF
+0:102  0:000  Threads: 16
+0:102  0:000  Cores: 8
+0:102  0:000  FSB: 100 MHz
+0:102  0:000  CPU: 4700 MHz
+0:102  0:000  TSC: 4700 MHz
+0:102  0:000  PIS: 100 MHz
+0:102  0:000  ExternalClock: 25 MHz
+0:102  0:000  === [ GetDevices ] ========================================
+0:102  0:000  PCI (00|00:00.00) : 8086 3E30 class=060000
+0:102  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:102  0:000  PCI (00|01:00.00) : 1002 67DF class=030000
+0:102  0:000   - GFX: Model=AMD Radeon RX 480 (ATI/AMD)
+0:102  0:000  PCI (00|01:00.01) : 1002 AAF0 class=040300
+0:102  0:000   - HDMI Audio: 
+0:102  0:000  PCI (00|00:02.00) : 8086 3E98 class=038000
+0:102  0:000   - GFX: Model=Intel UHD Graphics 630 (Intel)
+0:102  0:000  PCI (00|00:12.00) : 8086 A379 class=118000
+0:102  0:000  PCI (00|00:14.00) : 8086 A36D class=0C0330
+0:102  0:000  PCI (00|00:14.02) : 8086 A36F class=050000
+0:102  0:000  PCI (00|00:16.00) : 8086 A360 class=078000
+0:102  0:000  PCI (00|00:17.00) : 8086 A352 class=010601
+0:102  0:000  PCI (00|00:1B.00) : 8086 A340 class=060400
+0:102  0:000  PCI (00|00:1C.00) : 8086 A338 class=060400
+0:102  0:000  PCI (00|00:1D.00) : 8086 A330 class=060400
+0:102  0:000  PCI (00|00:1F.00) : 8086 A305 class=060100
+0:102  0:000  PCI (00|00:1F.03) : 8086 A348 class=040300
+0:103  0:000  PCI (00|00:1F.04) : 8086 A323 class=0C0500
+0:103  0:000  PCI (00|00:1F.05) : 8086 A324 class=0C8000
+0:103  0:000  PCI (00|00:1F.06) : 8086 15BC class=020000
+0:103  0:000   - LAN: 0 Vendor=Intel
+0:103  0:000  === [ GetDefaultSettings ] ================================
+0:103  0:000  Clover load options size = 0 bytes
+0:109  0:006  EFI\CLOVER\config.plist loaded: Success
+0:114  0:004  === [ GetListOfThemes ] ===================================
+0:114  0:000  - [00]: tonymacx86
+0:116  0:001  - [01]: random
+0:119  0:002  - [01]: embedded
+0:122  0:002  === [ Found config plists ] ===============================
+0:123  0:001  - config.plist
+0:123  0:000  === [ GetEarlyUserSettings ] ==============================
+0:123  0:000  timeout set to 3
+0:123  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:138  0:014  KextsToPatch: 1 requested
+0:148  0:009   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+0:175  0:027  Default theme: tonymacx86
+0:183  0:007  Hiding entries with string Windows
+0:190  0:007  Hiding entries with string BOOTX64.EFI
+0:198  0:007  === [ LoadDrivers ] =======================================
+0:491  0:293  Loading DataHubDxe-64.efi  status=Success
+0:518  0:026  Loading VBoxHfs-64.efi  status=Success
+0:542  0:024   - driver needs connecting
+0:549  0:007  Loading FSInject-64.efi  status=Success
+0:577  0:027  Loading EmuVariableUefi-64.efi  status=Success
+0:601  0:023  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:629  0:027  Loading SMCHelper-64.efi  status=Success
+0:653  0:024  1 drivers needs connecting ...
+0:661  0:007  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:675  0:013  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:821  0:146  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:883  0:062  === [ InitScreen ] ========================================
+1:150  0:266  SetScreenResolution: 1920x1080 - not found!
+1:162  0:012  SetMaxResolution: found best mode 0: 2560x1440
+1:197  0:034  Video mode change to mode #0: Success
+1:203  0:006   - set
+1:209  0:006  Console modes reported: 5, available modes:
+1:215  0:006   - [01]: 80x25 (current mode)
+1:224  0:008   - [02]: 80x50
+1:231  0:006   - [03]: 100x31
+1:238  0:006   - [04]: 127x33
+1:244  0:006   - [05]: 100x60
+1:250  0:006  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,5CCB07E7-A9E4-40D8-AC9F-FF79ADE71077,0x28,0x64000)
+1:259  0:008  Using embedded font: Success
+1:265  0:006  === [ GetMacAddress ] =====================================
+1:513  0:248  MAC address of LAN #0= E0:D5:5E:E2:50:C6:
+1:563  0:050  === [ ScanSPD ] ===========================================
+1:852  0:288  SMBus device : 8086 A323 class=0C0500 status=Success
+1:858  0:005  SMBus CmdReg: 0x3
+1:864  0:006  Scanning SMBus [8086:A323], mmio: 0x62238004, ioport: 0xEFA0, hostc: 0x11
+1:871  0:006  Slots to scan [8]...
+1:877  0:006  SPD[1]: Type 12 @0x51
+1:902  0:024  XMP Profile1: 5*125 0 ns
+1:908  0:006  Found module with XMP version 2.0
+1:914  0:006  DDR speed 2132MHz
+1:921  0:006  Slot: 1 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMR32GX4M2C3200C16 SerialNo=0000000000000000
+1:931  0:009  SPD[3]: Type 12 @0x53
+1:955  0:024  XMP Profile1: 5*125 0 ns
+1:962  0:006  Found module with XMP version 2.0
+1:968  0:006  DDR speed 2132MHz
+1:974  0:006  Slot: 3 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMR32GX4M2C3200C16 SerialNo=0000000000000000
+1:981  0:007  === [ GetAcpiTablesList ] =================================
+2:220  0:238  Get Acpi Tables List from RSDT:
+2:233  0:012   - [00]: FACP  A M I len=132
+2:239  0:006   - [01]: APIC  A M I len=300
+2:248  0:009   - [02]: FPDT  A M I len=68
+2:254  0:006   - [03]: FIDT  A M I len=156
+2:261  0:006   - [04]: MCFG  A M I len=60
+2:267  0:006   - [05]: SSDT  A M I len=516
+2:273  0:006   - [06]: SSDT  A M I len=6101
+2:280  0:006   - [07]: SSDT  A M I len=29860
+2:287  0:006   - [08]: SSDT  A M I len=12743
+2:294  0:006   - [09]: SSDT  A M I len=9048
+2:300  0:006   - [10]: HPET  A M I len=56
+2:306  0:006   - [11]: SSDT  A M I len=3998
+2:312  0:006   - [12]: SSDT  A M I len=11547
+2:318  0:006   - [13]: UEFI  A M I len=72
+2:328  0:009   - [14]: LPIT  A M I len=92
+2:334  0:006   - [15]: SSDT  A M I len=10206
+2:341  0:006   - [16]: SSDT  A M I len=4094
+2:347  0:006   - [17]: DBGP  A M I len=52
+2:354  0:006   - [18]: DBG2  A M I len=84
+2:361  0:006   - [19]: VFCT  A M I len=59524
+2:367  0:006   - [20]: BGRT  A M I len=56
+2:373  0:006   - [21]: WSMT  A M I len=40
+2:380  0:006  Calibrated TSC Frequency = 3600487520 = 3600MHz
+2:386  0:006  === [ GetUserSettings ] ===================================
+2:628  0:241  USB FixOwnership: yes
+2:634  0:006  Dropping 1 tables:
+2:641  0:006   - [00]: Drop table  signature="MATS" (5354414D)
+2:693  0:051           - set table: 5354414D,                0 to drop: no
+2:705  0:012   - final DSDT Fix mask=00000000
+2:711  0:006  Using ProductName from clover: iMac18,3
+2:718  0:006  BiosVersion: not set, Using BiosVersion from clover
+2:724  0:006  BiosVersion: IM183.88Z.F000.B00.1809280842
+2:730  0:006  BiosReleaseDate: 09/28/2018
+2:736  0:006  Using EfiVersion from clover: 166.0.0.0.0
+2:745  0:009  Using FirmwareFeatures from clover: 0xFC0FE137
+2:752  0:006  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+2:759  0:006  Using PlatformFeature from clover: 0x0
+2:768  0:008  === [ Found DSDT tables ] =================================
+2:998  0:229  === [ ScanVolumes ] =======================================
+3:259  0:260  Found 3 volumes with blockIO
+3:265  0:006  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)
+3:278  0:012  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,5CCB07E7-A9E4-40D8-AC9F-FF79ADE71077,0x28,0x64000)
+3:294  0:015          Result of bootcode detection: bootable unknown (legacy)
+3:301  0:007          This is SelfVolume !!
+3:307  0:006  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,FBA57CE6-CCAF-431E-A1AC-4FE90794A1D9,0x64028,0x1D161920)
+3:321  0:013          Result of bootcode detection: bootable unknown (legacy)
+3:328  0:007  Loading nvram.plist from Vol 'EFI' - loaded, size=3348
+3:345  0:016  === [ PutNvramPlistToRtVars ] =============================
+3:542  0:197   Skipping EmuVariableUefiPresent
+3:548  0:006  === [ InitTheme ] =========================================
+3:824  0:275  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+3:831  0:006  Loading font from ThemeDir: Error
+3:838  0:007  theme inited
+3:845  0:006  Chosen theme tonymacx86
+3:851  0:006  after NVRAM boot-args=dart=0
+3:858  0:006  Scanning legacy ...
+3:864  0:006  === [ Dump SMC keys from NVRAM ] ==========================
+4:047  0:182  found AppleSMC protocol
+4:053  0:006  Registered 16 SMC keys
+4:060  0:006  === [ ScanLoader ] ========================================
+4:328  0:267  - [01]: 'EFI'
+4:431  0:103          AddLoaderEntry for Volume Name=EFI
+4:438  0:007          skipped because entry is hidden
+4:444  0:006  === [ AddCustomTool ] =====================================
+4:698  0:253  found tool \EFI\CLOVER\tools\Shell64U.efi
+4:704  0:006  Checking EFI partition Volume 1 for Clover
+4:715  0:010   Found Clover
+4:722  0:007  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+4:749  0:026  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:808  0:058  === [ GetEfiBootDeviceFromNvram ] =========================
+4:979  0:171   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,FBA57CE6-CCAF-431E-A1AC-4FE90794A1D9,0x64028,0x1D161920)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1C8A9B5435CDD035B3A1C718EBEE73FB)
+4:988  0:009    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,FBA57CE6-CCAF-431E-A1AC-4FE90794A1D9,0x64028,0x1D161920)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1C8A9B5435CDD035B3A1C718EBEE73FB)'
+4:994  0:005    - LoaderPath: '<null string>'
+5:001  0:006    - Guid = FBA57CE6-CCAF-431E-A1AC-4FE90794A1D9
+5:007  0:006  === [ FindStartupDiskVolume ] =============================
+5:206  0:199    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,FBA57CE6-CCAF-431E-A1AC-4FE90794A1D9,0x64028,0x1D161920)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1C8A9B5435CDD035B3A1C718EBEE73FB)
+5:212  0:006     - searching for that partition
+5:218  0:006      - [!] not found
+5:225  0:006     - searching again, but comparing Media dev path nodes
+5:231  0:006      - [!] not found
+5:238  0:006  Default boot entry not found
+5:245  0:006  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+5:267  0:022  DefaultIndex=-1 and MainMenu.EntryCount=6
+5:336  0:069  GUI ready
